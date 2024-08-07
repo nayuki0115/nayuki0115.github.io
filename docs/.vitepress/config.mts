@@ -48,6 +48,8 @@ export default defineConfig({
           {
             text: 'Git',
             items: [
+              { text: 'Repo 初始上 Git 之步驟', link: '/notes/git/repo-init' },
+              { text: 'Git 分支系列指令', link: '/notes/git/git-branch' },
               { text: 'Git 清理不必要的檔案', link: '/notes/git/gc' },
             ]
           },
@@ -57,8 +59,11 @@ export default defineConfig({
         text: '興趣',
         collapsed: true,
         items: [
-          // { text: 'Markdown Examples', link: '/markdown-examples' },
-          // { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '美甲',
+            items: [
+              { text: '美甲課程 （完美單色、卸甲、補甲）', link: '/notes/nails/base-color' },
+            ]
+          },
         ]
       }
     ],
