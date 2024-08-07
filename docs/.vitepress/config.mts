@@ -30,6 +30,7 @@ export default defineConfig({
             items: [
               { text: 'JS 字串處理', link: '/notes/js/js-handle-string' },
               { text: 'JS 滾動視窗', link: '/notes/js/origin-js-scroll' },
+              { text: 'JS 數字千分位', link: '/notes/js/js-comma' },
             ]
           },
           {
