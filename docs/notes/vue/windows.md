@@ -2,7 +2,7 @@
 
 ###### tags: `JS` `Vue`
 
-滾動視窗原生方法可以參考 [JS 滾動視窗](/OJ_xP0HCQ6a4_yj7BXQ2iA) 
+滾動視窗原生方法可以參考 [JS 滾動視窗](/notes/js/origin-js-scroll) 
 
 這邊主要是記錄遇到比較神奇的狀況
 

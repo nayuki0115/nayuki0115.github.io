@@ -29,6 +29,7 @@ export default defineConfig({
             text: 'JavaScript',
             items: [
               { text: 'JS 字串處理', link: '/notes/js/js-handle-string' },
+              { text: 'JS 滾動視窗', link: '/notes/js/origin-js-scroll' },
             ]
           },
           {
