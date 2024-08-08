@@ -76,7 +76,7 @@ export default defineConfig({
       provider: 'local',
     },
     footer: {
-      copyright: 'Copyright © 2024-present Annie Wu'
+      copyright: 'Copyright © 2024-present <a href="https://github.com/nayuki0115">Annie Wu</a>'
     }
   }
 })
