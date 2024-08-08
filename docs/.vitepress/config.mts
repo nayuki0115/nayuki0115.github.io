@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Annie's Notes",
   description: "Annie's front-end notes and records of various interests",
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -11,7 +12,6 @@ export default defineConfig({
       { text: 'About', link: '/about' },
       { text: 'Notes', link: '/notes/js/js-handle-string' }
     ],
-
     sidebar: [
       {
         text: '關於我',
@@ -62,20 +62,21 @@ export default defineConfig({
         items: [
           { text: '美甲',
             items: [
-              { text: '美甲課程 （完美單色、卸甲、補甲）', link: '/notes/nails/base-color' },
+              { text: '完美單色、卸甲、補甲', link: '/notes/nails/base-color' },
             ]
           },
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/nayuki0115' },
       { icon: 'linkedin', link: 'https://tw.linkedin.com/in/nayuki0115?trk=people-guest_people_search-card' },
     ],
-
     search: {
-      provider: 'local'
+      provider: 'local',
+    },
+    footer: {
+      copyright: 'Copyright © 2024-present Annie Wu'
     }
   }
 })
