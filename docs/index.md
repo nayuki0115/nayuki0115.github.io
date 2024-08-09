@@ -16,7 +16,10 @@ hero:
 
 head:
   - - meta
-    - property: 'og:image'
+    - name: keywords
+      content: Front-end notes Vue Nuxt
+  - - meta
+    - property: og:image
       content: /logo.png
 
 features:
