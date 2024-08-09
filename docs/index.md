@@ -14,6 +14,11 @@ hero:
       text: About Me
       link: /about
 
+head:
+  - - meta
+    - property: 'og:image'
+      content: /logo.png
+
 features:
   - title: Front-end Notes
     details: 把前端遇到的問題記錄，或是筆記提醒自己
