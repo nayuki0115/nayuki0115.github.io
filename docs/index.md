@@ -21,6 +21,9 @@ head:
   - - meta
     - property: og:image
       content: /logo.png
+  - - meta
+    - property: og:url
+      content: https://nayuki0115.github.io/
 
 features:
   - title: Front-end Notes
