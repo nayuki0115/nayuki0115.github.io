@@ -28,9 +28,9 @@ Taipei, Taiwan
 :::
 
 ::: details **編輯頁** 
-有針對ui做一些設定(使用 Object 的方式)，欄位a type 是 input，就會長出 input (會去盤後台有哪幾種UI)
+有針對 UI 做一些設定(使用 Object 的方式)，欄位a type 是 input，就會長出 input (會去盤後台有哪幾種 UI)
 這樣未來
-  1. 欄位如果想要交換，只要交換 object 順序即可
+  1. 欄位如果想要交換，只要交換 Object 順序即可
   2. 切版的時候不用一個一個切
 :::
 
