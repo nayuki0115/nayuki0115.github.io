@@ -27,7 +27,7 @@ head:
 
 features:
   - title: Front-end Notes
-    details: 把前端遇到的問題記錄，或是筆記提醒自己
+    details: 記錄前端遇到的問題，用來提醒自己
     link: /notes/js/js-handle-string
   - title: About Me
     details: 介紹自己的學經歷
