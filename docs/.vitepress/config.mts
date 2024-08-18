@@ -28,6 +28,7 @@ export default defineConfig({
         items: [
           {
             text: 'JavaScript',
+            collapsed: true,
             items: [
               { text: 'JS 字串處理', link: '/notes/js/js-handle-string' },
               { text: 'JS 滾動視窗', link: '/notes/js/origin-js-scroll' },
@@ -36,12 +37,18 @@ export default defineConfig({
           },
           {
             text: 'Vue',
+            collapsed: true,
             items: [
               { text: '在 Vue 寫視窗滾動原生事件', link: '/notes/vue/windows' },
+              { text: 'Vue Watch', link: '/notes/vue/vue-watch' },
+              { text: 'Vue 3 雙向綁定以及 component 包裝注意事項', link: '/notes/vue/vue3-model-value' },
+              { text: 'Vue $attrs 用法', link: '/notes/vue/vue-attrs' },
+              { text: 'Vue Computed 用法', link: '/notes/vue/vue-computed' },
             ]
           },
           {
             text: 'CSS',
+            collapsed: true,
             items: [
               { text: '滾動視窗 smooth 的方法', link: '/notes/css/windows-scroll' },
               // { text: 'Runtime API Examples', link: '/api-examples' }
@@ -49,6 +56,7 @@ export default defineConfig({
           },
           {
             text: 'Git',
+            collapsed: true,
             items: [
               { text: 'Repo 初始上 Git 之步驟', link: '/notes/git/repo-init' },
               { text: 'Git 分支系列指令', link: '/notes/git/git-branch' },

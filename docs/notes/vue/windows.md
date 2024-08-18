@@ -20,7 +20,10 @@
 
 解決方法：
 使用原生的方式寫  onclick="functionName"
-function要放在windows上面他才會叫的到，比如 `window.functionName = () => { /*your code*/ }`
+function要放在windows上面他才會叫的到，比如 
+```javascript=
+window.functionName = () => { /*your code*/ }
+```  
 https://www.w3schools.com/jsref/event_onclick.asp
 
 ```javascript=
