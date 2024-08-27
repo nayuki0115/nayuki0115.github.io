@@ -51,6 +51,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: '滾動視窗 smooth 的方法', link: '/notes/css/windows-scroll' },
+              { text: '用 CSS 做螢光筆的效果', link: '/notes/css/highlighter-pen' },
               // { text: 'Runtime API Examples', link: '/api-examples' }
             ]
           },
