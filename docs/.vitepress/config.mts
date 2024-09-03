@@ -33,6 +33,8 @@ export default defineConfig({
               { text: 'JS 字串處理', link: '/notes/js/js-handle-string' },
               { text: 'JS 滾動視窗', link: '/notes/js/origin-js-scroll' },
               { text: 'JS 數字千分位', link: '/notes/js/js-comma' },
+              { text: 'JS 解析網址 / 處理網址', link: '/notes/js/js-url-handle' },
+              { text: 'JS 社群分享', link: '/notes/js/js-social-share' },
             ]
           },
           {
