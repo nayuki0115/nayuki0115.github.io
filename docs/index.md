@@ -33,7 +33,7 @@ features:
     details: 介紹自己的學經歷
     link: /about
   - title: Interests
-    details: 分享除了前端工程師外的興趣
+    details: 分享自己的興趣
     link: /notes/nails/base-color
 ---
 
