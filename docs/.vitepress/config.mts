@@ -47,6 +47,7 @@ export default defineConfig({
               { text: 'Vue $attrs 用法', link: '/notes/vue/vue-attrs' },
               { text: 'Vue Computed 用法', link: '/notes/vue/vue-computed' },
               { text: 'Nuxt SEO 設定', link: '/notes/vue/nuxt-seo' },
+              { text: 'Nuxt3 SSR 出現 500 可能的問題', link: '/notes/vue/nuxt3-ssr-500' },
             ]
           },
           {
