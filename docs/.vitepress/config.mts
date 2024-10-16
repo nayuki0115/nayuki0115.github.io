@@ -41,11 +41,12 @@ export default defineConfig({
             text: 'Vue',
             collapsed: true,
             items: [
-              { text: '在 Vue 寫視窗滾動原生事件', link: '/notes/vue/windows' },
+              { text: 'Vue 寫視窗滾動原生事件', link: '/notes/vue/windows' },
               { text: 'Vue Watch', link: '/notes/vue/vue-watch' },
               { text: 'Vue 3 雙向綁定以及 component 包裝注意事項', link: '/notes/vue/vue3-model-value' },
               { text: 'Vue $attrs 用法', link: '/notes/vue/vue-attrs' },
               { text: 'Vue Computed 用法', link: '/notes/vue/vue-computed' },
+              { text: 'Nuxt SEO 設定', link: '/notes/vue/nuxt-seo' },
             ]
           },
           {
