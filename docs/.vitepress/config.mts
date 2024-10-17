@@ -78,6 +78,7 @@ export default defineConfig({
           { text: '美甲',
             items: [
               { text: '完美單色、卸甲、補甲', link: '/notes/nails/base-color' },
+              { text: '磨甲機、星空貼、鏡面粉', link: '/notes/nails/nail-grinder' },
             ]
           },
         ]
