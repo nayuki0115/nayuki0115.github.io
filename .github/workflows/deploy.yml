@@ -10,6 +10,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: pages
   cancel-in-progress: false
@@ -18,6 +19,25 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # 新增清理步驟
+      - name: Clean artifacts
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const artifacts = await github.rest.actions.listArtifactsForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.name,
+            });
+            for (const artifact of artifacts.data.artifacts) {
+              if (artifact.name === 'github-pages') {
+                await github.rest.actions.deleteArtifact({
+                  owner: context.repo.owner,
+                  repo: context.repo.name,
+                  artifact_id: artifact.id,
+                });
+              }
+            }
+              
       - name: Checkout
         uses: actions/checkout@v4
         with:
