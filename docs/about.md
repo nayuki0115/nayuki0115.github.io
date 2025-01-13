@@ -11,9 +11,10 @@
   <div>吳冠儀，前端工程師</div>
   <div><a href= "mailto: annie25506@gmail.com"> annie25506@gmail.com </a></div>
   <div>Taipei, Taiwan</div>
-  <div>2017 年碩士班畢業後，成為前端工程師已有6年</div>
+  <div>2017 年碩士班畢業後，成為前端工程師已有 7 年</div>
   <div>對前端技術與網頁設計，充滿熱忱</div>  
-  <div>在現職中已做過多個專案，想挑戰有穩定產品的職務，</div>  
+  <div>先前工作皆為專案性質，想挑戰有穩定產品的職務</div>  
+  <div>有管理前端小組的經驗</div> 
   <div>接受遠端工作、混合辦公</div> 
 </section>
 
