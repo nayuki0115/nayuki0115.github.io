@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Annie's Notes"
-  text: "Annie's front-end notes and records of various interests"
+  text: "Front-end notes and records of various interests"
   tagline: ""
   actions:
     - theme: brand
