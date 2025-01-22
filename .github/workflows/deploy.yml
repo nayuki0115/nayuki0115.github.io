@@ -3,7 +3,6 @@ name: Deploy Annie site to Pages
 on:
   push:
     branches: [main]
-
   workflow_dispatch:
 
 permissions:
@@ -20,30 +19,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 
+          fetch-depth: 0
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm 
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Clear npm cache
-        run: npm cache clean --force
+          cache: npm
 
       - name: Install dependencies
-        run: 
+        run: |
           rm -rf node_modules package-lock.json
-          npm install 
+          npm install
 
       - name: Build with VitePress
-        run:  npm run docs:build
+        run: npm run docs:build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
