@@ -31,9 +31,12 @@ jobs:
           cache: npm 
       - name: Setup Pages
         uses: actions/configure-pages@v4
+      - name: Clear npm cache
+        run: npm cache clean --force
       - name: Install dependencies
-        run: rm -rf node_modules package-lock.json
-            npm install 
+        run: 
+          rm -rf node_modules package-lock.json
+          npm install 
       - name: Build with VitePress
         run: npx vitepress build docs
       - name: Upload artifact
