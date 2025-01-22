@@ -35,7 +35,7 @@ jobs:
         run: rm -rf node_modules package-lock.json
             npm install 
       - name: Build with VitePress
-        run: npx run docs:build
+        run: npx vitepress build docs
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
