@@ -1,0 +1,11 @@
+/* .vitepress/theme/custom.css */
+:root {
+  --vp-c-brand-1: #E87A90;
+  --vp-c-brand-2: #F19483;
+  --vp-c-brand-3: #EEA9A9;
+  --vp-c-brand-4: #F8C3CD;
+
+  --vp-c-bg-soft: #FEDFE1;
+
+  --vp-button-brand-bg: var(--vp-c-brand-3);
+}
