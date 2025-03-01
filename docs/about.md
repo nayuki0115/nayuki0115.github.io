@@ -35,30 +35,40 @@
 ### Frontend Tech Stack  前端技能 
 <section>
   <p>
-    <span class="tags">JavaScript ES6</span>
-    <span class="tags">TypeScript </span>
+    <span class="tags">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg" alt="javascript"></a>
+    </span>
+    <span class="tags">
+      <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg" alt="typescript"></a>
+    </span>
   </p>
   <p>
-    <span class="tags">Vue 2</span>
-    <span class="tags">Vue Composition api</span>
-    <span class="tags">Vue 3</span>
+    <span class="tags">
+      <a href="https://vuejs.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/vuejs/vuejs-ar21.svg" alt="vue"></a>
+    </span>
+    <span class="tags">
+      <a href="https://nuxt.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-ar21.svg" alt="Nuxt"></a>
+    </span>
   </p>
   <p>
-    <span class="tags">Nuxt 2</span>
-    <span class="tags">Nuxt Composition api</span>
-    <span class="tags">Nuxt 3</span>
-  </p>
-  <p>
-    <span class="tags">HTML</span>
-    <span class="tags">CSS</span>
-    <span class="tags">JQuery</span>
+    <span class="tags">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="html"></a> 
+    </span>
+    <span class="tags">
+      <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics" target="_blank"><img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg" alt="css"></a>
+    </span>
+    <span class="tags">
+      <a href="https://jquery.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/jquery/jquery-ar21.svg" alt="jquery"></a>
+    </span>
   </p>
 </section>
 
 ### Others Stack  其他技能 
 <section>
   <p>
-    <span class="tags">Git</span>
+    <span class="tags">
+      <a href="https://git-scm.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="git"></a>
+    </span>
   </p>
 </section>
 <!-- 
@@ -108,8 +118,6 @@ const members = [
       padding: 5.01px 8.35px;
       margin-bottom: 6.68px;
       line-height: 30px;
-      border: 1.67px solid #eee;
-      border-radius: 8.35px;
       margin: 0 0 0 0.5rem;
     }
   }
