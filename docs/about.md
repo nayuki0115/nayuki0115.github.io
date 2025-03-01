@@ -13,9 +13,10 @@
   <div>Taipei, Taiwan</div>
   <div>2017 年碩士班畢業後，成為前端工程師已有 7 年</div>
   <div>對前端技術與網頁設計，充滿熱忱</div>  
-  <div>先前工作皆為專案性質，想挑戰有穩定產品的職務</div>  
+  <div>想挑戰有穩定產品的職務</div>  
   <div>有管理前端小組的經驗</div> 
   <div>接受遠端工作、混合辦公</div> 
+  <div>之前接觸的框架為 Vue，不排斥接觸 React （Vue 已使用5年，相信學習 React 可以更快些）</div> 
 </section>
 
 ## 學歷
