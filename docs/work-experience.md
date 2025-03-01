@@ -52,6 +52,7 @@ Taipei, Taiwan
 
 ::: tip <h5>桃園市OD</h5>
 > 建置前後台，以 Open Data 為主體  
+> https://opendata.tycg.gov.tw/  
 
 後台：```Vue 3``` ， 前台：```Nuxt 3```  
 擔任此專案 RDL ( RD Leader ) ，負責與 PM 溝通、分配 RD 工作 
