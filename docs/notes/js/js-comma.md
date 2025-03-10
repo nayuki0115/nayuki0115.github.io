@@ -1,11 +1,11 @@
-# JS 數字千分位
+的 Utils
 
 ###### tags: `JS`
 
 ## Comma 數字千分位
 
-```javascript=
-const formatNumberWithComma =  (num: string | number) =>  {
+```
+const formatNumberWithComma =  (num: any) =>  {
   if (num === null || num === '' || Number.isNaN(num) == true || typeof num === 'undefined') {
     return num || 0
   }
@@ -14,3 +14,6 @@ const formatNumberWithComma =  (num: string | number) =>  {
   return parts.join('.')
 }
 ```
+
+
+
