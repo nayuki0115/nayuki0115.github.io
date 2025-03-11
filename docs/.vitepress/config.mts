@@ -51,6 +51,13 @@ export default defineConfig({
             ]
           },
           {
+            text: 'HTML',
+            collapsed: true,
+            items: [
+              { text: 'input type 和 inputmode 與 enterkeyhint', link: '/notes/html/input-keyboard-mode' },
+            ]
+          },
+          {
             text: 'CSS',
             collapsed: true,
             items: [
