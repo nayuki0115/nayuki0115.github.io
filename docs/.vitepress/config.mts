@@ -67,6 +67,13 @@ export default defineConfig({
             ]
           },
           {
+            text: 'Web Development',
+            collapsed: true,
+            items: [
+              { text: 'MIME types', link: '/notes/web-development/mime' },
+            ]
+          },
+          {
             text: 'Git',
             collapsed: true,
             items: [
