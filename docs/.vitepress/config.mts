@@ -31,6 +31,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'JS 字串處理', link: '/notes/js/js-handle-string' },
+              { text: 'JS 比較值的三種方式', link: '/notes/js/js-compare-value' },
               { text: 'JS 滾動視窗', link: '/notes/js/origin-js-scroll' },
               { text: 'JS 數字千分位', link: '/notes/js/js-comma' },
               { text: 'JS 解析網址 / 處理網址', link: '/notes/js/js-url-handle' },
