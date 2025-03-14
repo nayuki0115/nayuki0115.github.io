@@ -4,9 +4,9 @@
 
 MIME 是給網際網路上傳輸的內容賦予的分類類型，[這邊](https://zh.wikipedia.org/zh-tw/%E4%BA%92%E8%81%94%E7%BD%91%E5%AA%92%E4%BD%93%E7%B1%BB%E5%9E%8B)或[這邊](https://zh.wikipedia.org/wiki/%E5%A4%9A%E7%94%A8%E9%80%94%E4%BA%92%E8%81%AF%E7%B6%B2%E9%83%B5%E4%BB%B6%E6%93%B4%E5%B1%95)看名詞解釋
 
-前端上傳的時候很常遇到，需要限制檔案類型的情況
-因此將常用的 Mime type 做整理
-更多的可以參考[這邊](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types)或是[這邊](http://www.iana.org/assignments/media-types/media-types.xhtml)
+前端上傳的時候很常遇到，需要限制檔案類型的情況  
+因此將常用的 Mime type 做整理  
+更多的可以參考[這邊](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types)或是[這邊](http://www.iana.org/assignments/media-types/media-types.xhtml)  
 
 ## MIME Type
 
