@@ -13,6 +13,7 @@ export default defineConfig({
       { text: 'About', link: '/about' },
       { text: 'Notes', link: '/notes/js/js-handle-string' }
     ],
+    outline: [2, 3] ,
     sidebar: [
       {
         text: '關於我',
@@ -43,9 +44,10 @@ export default defineConfig({
             text: 'Vue',
             collapsed: true,
             items: [
+              { text: 'Vue 3 雙向綁定以及 component 包裝注意事項', link: '/notes/vue/vue3-model-value' },
+              { text: 'Vue 3 的響應式 API 比較', link: '/notes/vue/vue3-ref-compare' },
               { text: 'Vue 寫視窗滾動原生事件', link: '/notes/vue/windows' },
               { text: 'Vue Watch', link: '/notes/vue/vue-watch' },
-              { text: 'Vue 3 雙向綁定以及 component 包裝注意事項', link: '/notes/vue/vue3-model-value' },
               { text: 'Vue Transition', link: '/notes/vue/vue-transition' },
               { text: 'Vue $attrs 用法', link: '/notes/vue/vue-attrs' },
               { text: 'Vue Computed 用法', link: '/notes/vue/vue-computed' },

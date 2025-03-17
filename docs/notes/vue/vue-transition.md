@@ -1,7 +1,3 @@
----
-outline: [2, 3] 
----
-
 # Vue Transition 系統
 
 ## Vue Transition 組件
