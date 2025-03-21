@@ -53,8 +53,14 @@ export default defineConfig({
               { text: 'Vue Transition', link: '/notes/vue/vue-transition' },
               { text: 'Vue $attrs 用法', link: '/notes/vue/vue-attrs' },
               { text: 'Vue Computed 用法', link: '/notes/vue/vue-computed' },
-              { text: 'Nuxt SEO 設定', link: '/notes/vue/nuxt-seo' },
-              { text: 'Nuxt3 SSR 出現 500 可能的問題', link: '/notes/vue/nuxt3-ssr-500' },
+            ]
+          },
+          {
+            text: 'Nuxt',
+            collapsed: true,
+            items: [
+              { text: 'Nuxt SEO 設定', link: '/notes/nuxt/nuxt-seo' },
+              { text: 'Nuxt3 SSR 出現 500 可能的問題', link: '/notes/nuxt/nuxt3-ssr-500' },
             ]
           },
           {
