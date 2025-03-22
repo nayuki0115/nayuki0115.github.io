@@ -84,6 +84,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'MIME types', link: '/notes/web-development/mime' },
+              { text: 'RWD (Responsive Web Design) 和 AWD (Adaptive Web Design) ', link: '/notes/web-development/rwd-awd-diff' },
             ]
           },
           {
