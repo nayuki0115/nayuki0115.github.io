@@ -85,6 +85,7 @@ export default defineConfig({
             items: [
               { text: 'MIME types', link: '/notes/web-development/mime' },
               { text: 'RWD (Responsive Web Design) 和 AWD (Adaptive Web Design) ', link: '/notes/web-development/rwd-awd-diff' },
+              { text: 'Git Commit 規範', link: '/notes/web-development/git-commit' },
             ]
           },
           {
