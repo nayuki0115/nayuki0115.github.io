@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: About Me
       link: /about
+  image:
+    src: /home-bg.png
+    alt: Annie's Notes
 
 head:
   - - meta
