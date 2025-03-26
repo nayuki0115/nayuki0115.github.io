@@ -6,4 +6,25 @@
   --vp-c-brand-4: #F8C3CD;
 
   --vp-button-brand-bg: var(--vp-c-brand-3);
+
+  --vp-home-hero-image-background-image: linear-gradient(135deg, #F9C1CC, #B794F4);
+  --vp-home-hero-image-filter: blur(44px)
+}
+
+@media (min-width: 640px) {
+  :root {
+      --vp-home-hero-image-filter: blur(56px)
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+      --vp-home-hero-image-filter: blur(68px)
+  }
+}
+
+.image-bg {
+  background-image: var(--vp-home-hero-image-background-image);
+  filter: var(--vp-home-hero-image-filter);
+  transform: translate(-50%, -50%);
 }
