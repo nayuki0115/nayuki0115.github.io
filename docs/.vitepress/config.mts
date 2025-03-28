@@ -81,6 +81,13 @@ export default defineConfig({
             ]
           },
           {
+            text: 'Design',
+            collapsed: true,
+            items: [
+              { text: '程式碼美圖產生器', link: '/notes/design/code-aesthetic-image-generator' },
+            ]
+          },
+          {
             text: 'Web Development',
             collapsed: true,
             items: [
