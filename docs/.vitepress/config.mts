@@ -92,6 +92,7 @@ export default defineConfig({
             text: 'Web Development',
             collapsed: true,
             items: [
+              { text: '技術電子報', link: '/notes/web-development/technology-newsletter' },
               { text: 'MIME types', link: '/notes/web-development/mime' },
               { text: 'RWD (Responsive Web Design) 和 AWD (Adaptive Web Design) ', link: '/notes/web-development/rwd-awd-diff' },
               { text: 'Git Commit 規範', link: '/notes/web-development/git-commit' },
