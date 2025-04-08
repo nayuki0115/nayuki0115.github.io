@@ -1,3 +1,8 @@
+---
+outline: [2, 4]
+---
+
+
 # 瀏覽器物件模型（BOM） 
 
 ###### tags: `JavaScript` `瀏覽器` `BOM`
