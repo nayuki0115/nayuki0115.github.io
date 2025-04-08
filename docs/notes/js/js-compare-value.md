@@ -1,6 +1,6 @@
 # JS 比較值的三種方式
 
-###### tags: `JS`
+###### tags: `JavaScript `
 
 ## 比較值的三種方式
 - == (loose equality)

@@ -1,6 +1,6 @@
 # preventDefault 和 stopPropagation 的差異
 
-###### tags: `Js`
+###### tags: `JavaScript `
 
 ## 基本定義
 

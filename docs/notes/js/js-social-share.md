@@ -1,5 +1,5 @@
 # JS 社群分享 
-###### tags: `JS`
+###### tags: `JavaScript `
 
 ## Facebook
 ```javascript=

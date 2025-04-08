@@ -1,6 +1,6 @@
 # 滾動視窗 smooth 的方法
 
-###### tags: `CSS` `JS`
+###### tags: `CSS` `JavaScript `
 
 ## CSS 方法
 ```css=

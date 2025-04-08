@@ -1,6 +1,6 @@
 # JavaScript 日期處理與格式化
 
-###### tags: `JS`
+###### tags: `JavaScript `
 
 ## 日期格式化 (Date物件)
 

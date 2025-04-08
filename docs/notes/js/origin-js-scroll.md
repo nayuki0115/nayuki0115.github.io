@@ -1,6 +1,6 @@
 # JS 滾動視窗
 
-###### tags: `JS`
+###### tags: `JavaScript `
 
 ##  scrollIntoView
 

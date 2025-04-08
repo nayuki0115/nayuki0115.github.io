@@ -1,6 +1,6 @@
 # JS 字串處理
 
-###### tags: `JS`
+###### tags: `JavaScript `
 
 ## 長度 / 擷取相關
 

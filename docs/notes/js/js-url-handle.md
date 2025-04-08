@@ -1,6 +1,6 @@
 # JS 解析網址 / 處理網址
 
-###### tags: `JS`
+###### tags: `JavaScript `
 
 ## 把 Object 轉換成網址參數
 > 情境：

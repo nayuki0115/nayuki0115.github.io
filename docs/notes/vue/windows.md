@@ -1,6 +1,6 @@
 # 在 Vue 寫視窗滾動原生事件 
 
-###### tags: `JS` `Vue`
+###### tags: `JavaScript ` `Vue`
 
 滾動視窗原生方法可以參考 [JS 滾動視窗](/notes/js/origin-js-scroll) 
 

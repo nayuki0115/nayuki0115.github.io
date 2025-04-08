@@ -1,6 +1,6 @@
 # Vue Watch
 
-###### tags: `Vue` `JS`
+###### tags: `Vue` `JavaScript `
 
 ## Vue Composition api
 ```

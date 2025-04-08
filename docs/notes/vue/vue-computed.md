@@ -1,6 +1,6 @@
 # Vue Computed
 
-###### tags: `Vue` `JS`
+###### tags: `Vue` `JavaScript `
 
 ## 基本用法
 
