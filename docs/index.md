@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Front-end Notes
-      link: /notes/js/js-event-attribute.html
+      link: /notes/js/js-bom
     - theme: alt
       text: About Me
       link: /about
@@ -31,7 +31,7 @@ head:
 features:
   - title: Front-end Notes
     details: 記錄前端遇到的問題，用來提醒自己
-    link: /notes/js/js-event-attribute.html
+    link: /notes/js/js-bom
   - title: About Me
     details: 介紹自己的學經歷
     link: /about
