@@ -90,6 +90,7 @@ export default withMermaid(
                 collapsed: true,
                 items: [
                   { text: '程式碼美圖產生器', link: '/notes/design/code-aesthetic-image-generator' },
+                  { text: 'SVG 產生器', link: '/notes/design/svg-gen' },
                 ]
               },
               {
