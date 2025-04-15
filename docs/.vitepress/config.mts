@@ -50,6 +50,7 @@ export default withMermaid(
                 text: 'Vue',
                 collapsed: true,
                 items: [
+                  { text: 'Vue 開發風格指南', link: '/notes/vue/vue-coding-guide' },
                   { text: 'Vue 3 雙向綁定以及 component 包裝注意事項', link: '/notes/vue/vue3-model-value' },
                   { text: 'Vue 3 的響應式 API 比較', link: '/notes/vue/vue3-ref-compare' },
                   { text: 'Vue 修飾符', link: '/notes/vue/vue-modifier' },
