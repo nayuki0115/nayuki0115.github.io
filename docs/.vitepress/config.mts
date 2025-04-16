@@ -101,6 +101,7 @@ export default withMermaid(
                 items: [
                   { text: '技術電子報', link: '/notes/web-development/technology-newsletter' },
                   { text: 'MIME types', link: '/notes/web-development/mime' },
+                  { text: '常用類型測試用檔案', link: '/notes/web-development/file-types-testing' },
                   { text: 'RWD (Responsive Web Design) 和 AWD (Adaptive Web Design) ', link: '/notes/web-development/rwd-awd-diff' },
                   { text: 'Git Commit 規範', link: '/notes/web-development/git-commit' },
                   { text: 'Branch 命名規範', link: '/notes/web-development/branch-name' },
