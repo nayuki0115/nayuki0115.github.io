@@ -71,6 +71,13 @@ export default withMermaid(
                 ]
               },
               {
+                text: 'React',
+                collapsed: true,
+                items: [
+                  { text: '使用 Vite 建立 React 專案', link: '/notes/react/react-init-project' },
+                ]
+              },
+              {
                 text: 'HTML',
                 collapsed: true,
                 items: [
