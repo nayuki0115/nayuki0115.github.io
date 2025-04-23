@@ -135,6 +135,7 @@ export default withMermaid(
                 items: [
                   { text: '完美單色、卸甲、補甲', link: '/notes/nails/base-color' },
                   { text: '磨甲機、星空貼、鏡面粉', link: '/notes/nails/nail-grinder' },
+                  { text: '指模延甲、暈染技法', link: '/notes/nails/nail-lengthen' },
                 ]
               },
             ]
