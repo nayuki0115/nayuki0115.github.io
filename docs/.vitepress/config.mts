@@ -98,7 +98,7 @@ export default withMermaid(
                 text: 'Browser Devtool',
                 collapsed: true,
                 items: [
-                  { text: '介紹', link: '/notes/design/introduce' },
+                  { text: '介紹', link: '/notes/browser-devtool/introduce' },
                 ]
               },
               {
