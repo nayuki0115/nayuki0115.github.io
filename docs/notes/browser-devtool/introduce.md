@@ -14,7 +14,7 @@
 ## 主要功能
 ### Elements
 呈現網頁的骨架與樣式，可以檢視和修改網頁的 HTML 結構和 CSS 樣式
-[開發者工具 - Elements 面板](/bidV5lMKSuSVQ7_FC8lcdw) → 內容待補
+(內容待補)
 
 ### Console
 顯示 JavaScript 錯誤、警告和日誌訊息
