@@ -36,6 +36,7 @@ export default withMermaid(
                 items: [
                   { text: '瀏覽器物件模型（BOM） ', link: '/notes/js/js-bom' },
                   { text: 'JS 事件屬性清單', link: '/notes/js/js-event-attribute' },
+                  { text: 'window 物件的常用屬性與方法', link: '/notes/js/js-window-attr' },
                   { text: 'JS 比較值的三種方式', link: '/notes/js/js-compare-value' },
                   { text: 'JS preventDefault 和 stopPropagation 的差異', link: '/notes/js/js-stop-event.md' },
                   { text: 'JS 日期處理與格式化', link: '/notes/js/js-date-format' },
