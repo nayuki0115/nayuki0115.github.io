@@ -34,20 +34,20 @@ document.addEventListener('click', (event) => {
 繼承自 `Event`，用於 `click`、`mousedown`、`mousemove` 等事件
 | 屬性名稱 | 類型 | 描述 |
 | --- | --- | --- |
-| `clientX` | `number` | 滑鼠相對於視窗（viewport）的 X 座標。 |
-| `clientY` | `number` | 滑鼠相對於視窗的 Y 座標。 |
-| `screenX` | `number` | 滑鼠相對於螢幕的 X 座標。 |
-| `screenY` | `number` | 滑鼠相對於螢幕的 Y 座標。 |
-| `pageX` | `number` | 滑鼠相對於文檔（考慮滾動）的 X 座標。 |
-| `pageY` | `number` | 滑鼠相對於文檔的 Y 座標。 |
-| `offsetX` | `number` | 滑鼠相對於目標元素的 X 座標。 |
-| `offsetY` | `number` | 滑鼠相對於目標元素的 Y 座標。 |
-| `button` | `number` | 按下的滑鼠按鈕（0: 左鍵, 1: 中鍵, 2: 右鍵）。 |
-| `buttons` | `number` | 表示哪些按鈕被按下（位元掩碼：1: 左鍵, 2: 右鍵, 4: 中鍵）。 |
-| `altKey` | `boolean` | 是否按下 Alt 鍵。 |
-| `ctrlKey` | `boolean` | 是否按下 Ctrl 鍵。 |
-| `shiftKey` | `boolean` | 是否按下 Shift 鍵。 |
-| `metaKey` | `boolean` | 是否按下 Meta 鍵（Windows 鍵或 Command 鍵）。 |
+| `clientX` | `number` | 滑鼠相對於視窗（viewport）的 X 座標 |
+| `clientY` | `number` | 滑鼠相對於視窗的 Y 座標 |
+| `screenX` | `number` | 滑鼠相對於螢幕的 X 座標 |
+| `screenY` | `number` | 滑鼠相對於螢幕的 Y 座標 |
+| `pageX` | `number` | 滑鼠相對於 document （考慮滾動）的 X 座標 |
+| `pageY` | `number` | 滑鼠相對於 document 的 Y 座標 |
+| `offsetX` | `number` | 滑鼠相對於目標元素的 X 座標 |
+| `offsetY` | `number` | 滑鼠相對於目標元素的 Y 座標 |
+| `button` | `number` | 按下的滑鼠按鈕（0: 左鍵, 1: 中鍵, 2: 右鍵） |
+| `buttons` | `number` | 表示哪些按鈕被按下（位元掩碼：1: 左鍵, 2: 右鍵, 4: 中鍵） |
+| `altKey` | `boolean` | 是否按下 Alt 鍵 |
+| `ctrlKey` | `boolean` | 是否按下 Ctrl 鍵 |
+| `shiftKey` | `boolean` | 是否按下 Shift 鍵 |
+| `metaKey` | `boolean` | 是否按下 Meta 鍵（Windows 鍵或 Command 鍵） |
 
 ```javascript=
 document.addEventListener('click', (event) => {
@@ -61,14 +61,14 @@ document.addEventListener('click', (event) => {
 
 | 屬性名稱 | 類型 | 描述 |
 | --- | --- | --- |
-| key | `string` | 按下的鍵的值（如 "Enter"、"a"）。 |
-| code | `string` | 按鍵的物理位置代碼（如 "KeyA"、"Enter"）。 |
-| altKey | `boolean` | 是否按下 Alt 鍵。 |
-| ctrlKey | `boolean` | 是否按下 Ctrl 鍵。 |
-| shiftKey | `boolean` | 是否按下 Shift 鍵。 |
-| metaKey | `boolean` | 是否按下 Meta 鍵。 |
-| repeat | `boolean` | 指示按鍵是否被重複按下（長按）。 |
-| keyCode | `number` | 已棄用，鍵的數值代碼（不推薦使用，建議用 key 或 code）。 |
+| `key` | `string` | 按下的按鍵的值（如 "Enter"、"a"） |
+| `code` | `string` | 按鍵的物理位置代碼（如 "KeyA"、"Enter"） |
+| `altKey` | `boolean` | 是否按下 Alt 鍵 |
+| `ctrlKey` | `boolean` | 是否按下 Ctrl 鍵 |
+| `shiftKey` | `boolean` | 是否按下 Shift 鍵 |
+| `metaKey` | `boolean` | 是否按下 Meta 鍵 |
+| `repeat` | `boolean` | 指示按鍵是否被重複按下（長按） |
+| `keyCode` | `number` | 已棄用，按鍵的數值代碼（不推薦使用，建議用 key 或 code） |
 
 ```javascript=
 document.addEventListener('keydown', (event) => {
@@ -108,11 +108,11 @@ document.addEventListener('touchstart', (event) => {
 
 ## 需注意
 
-1.  **棄用屬性**：
+1.  **棄用屬性**
     *   `keyCode`、`charCode`、`which` 已棄用，建議使用 `key` 和 `code`
-2.  **瀏覽器兼容性**：
+2.  **瀏覽器兼容性**
     *   大多數屬性在現代瀏覽器中廣泛支援，但某些屬性（如觸控相關）可能僅限行動裝置。
-3.  **事件類型擴展**：
+3.  **事件類型擴展**
     *   不同事件類型（如 WheelEvent、FocusEvent）有額外專屬屬性，可查閱 [MDN Event 參考](https://developer.mozilla.org/en-US/docs/Web/API/Event)。
 
 * * *
