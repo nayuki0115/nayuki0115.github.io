@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Annie's Notes"
-  text: "Front-end notes and records of various interests"
+  text: "Front-end's Bizarre Adventure"
   tagline: ""
   actions:
     - theme: brand
@@ -20,7 +20,7 @@ hero:
 head:
   - - meta
     - name: keywords
-      content: Front-end notes Vue Nuxt
+      content: Front-end notes Vue Nuxt 前端
   - - meta
     - property: og:image
       content: /logo.png
@@ -29,14 +29,14 @@ head:
       content: https://nayuki0115.github.io/
 
 features:
-  - title: Front-end Notes
-    details: 記錄前端遇到的問題，用來提醒自己
+  - title: Front-end Notes 💻
+    details: 前端勇者的備忘錄：問題與解決之路
     link: /notes/js/js-bom
   - title: About Me
-    details: 介紹自己的學經歷
+    details: 我的求學與職涯之路
     link: /about
   - title: Interests
-    details: 分享自己的興趣
+    details: 興趣探索之旅：熱愛與發現
     link: /notes/nails/base-color
 ---
 
