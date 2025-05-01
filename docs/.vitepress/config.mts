@@ -40,6 +40,7 @@ export default withMermaid(
                   { text: 'JS 比較值的三種方式', link: '/notes/js/js-compare-value' },
                   { text: 'JS preventDefault 和 stopPropagation 的差異', link: '/notes/js/js-stop-event.md' },
                   { text: 'JS 日期處理與格式化', link: '/notes/js/js-date-format' },
+                  { text: 'JS 複製至剪貼簿', link: '/notes/js/js-clipboard' },
                   { text: 'JS 字串處理', link: '/notes/js/js-handle-string' },
                   { text: 'JS 滾動視窗', link: '/notes/js/origin-js-scroll' },
                   { text: 'JS 數字千分位', link: '/notes/js/js-comma' },
