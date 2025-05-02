@@ -49,6 +49,13 @@ export default withMermaid(
                 ]
               },
               {
+                text: 'TypeScript',
+                collapsed: true,
+                items: [
+                  { text: 'JavaScript 和 TypeScript 型別', link: '/notes/ts/ts-and-js-type' },
+                ]
+              },
+              {
                 text: 'Vue',
                 collapsed: true,
                 items: [
