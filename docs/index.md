@@ -33,9 +33,9 @@ features:
     details: 前端勇者的備忘錄：問題與解決之路
     link: /notes/js/js-bom
   - title: About Me
-    details: 我的求學與職涯之路
+    details: 我的求學與職涯之路 📖
     link: /about
-  - title: Interests
+  - title: Interests 👀
     details: 興趣探索之旅：熱愛與發現
     link: /notes/nails/base-color
 ---
