@@ -141,7 +141,7 @@ export default withMermaid(
                   { text: 'Repo 初始上 Git 之步驟', link: '/notes/git/repo-init' },
                   { text: 'Git 分支系列指令', link: '/notes/git/git-branch' },
                   { text: 'Git 清理不必要的檔案', link: '/notes/git/gc' },
-                  { text: 'Gitlab SSH', link: '/notes/git/git-ssh' },
+                  { text: '建立 SSH Key', link: '/notes/git/git-ssh' },
                 ]
               },
             ]
