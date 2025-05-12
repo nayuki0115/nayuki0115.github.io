@@ -32,8 +32,8 @@ features:
   - title: Front-end Notes 💻
     details: 前端勇者的備忘錄：問題與解決之路
     link: /notes/js/js-bom
-  - title: About Me
-    details: 我的求學與職涯之路 📖
+  - title: About Me 📖
+    details: 我的求學與職涯之路 
     link: /about
   - title: Interests 👀
     details: 興趣探索之旅：熱愛與發現

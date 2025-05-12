@@ -87,6 +87,7 @@ export default withMermaid(
                 items: [
                   { text: '使用 Vite 建立 React 專案', link: '/notes/react/react-init-project' },
                   { text: 'React 中取得 DOM 實體的方法', link: '/notes/react/react-dom' },
+                  { text: '讓父層可以使用子層的內容 - forwardRef 和 useImperativeHandle', link: '/notes/react/react-forwardref' },
                 ]
               },
               {
