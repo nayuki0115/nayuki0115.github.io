@@ -120,6 +120,7 @@ export default withMermaid(
                   { text: '程式碼美圖產生器', link: '/notes/design/code-aesthetic-image-generator' },
                   { text: 'UI 設計 / 切版 會用到的產生器', link: '/notes/design/ui-design-mockup-gen' },
                   { text: 'SVG 產生器', link: '/notes/design/svg-gen' },
+                  { text: 'RWD 和 AWD ', link: '/notes/design/rwd-awd' },
                 ]
               },
               {
