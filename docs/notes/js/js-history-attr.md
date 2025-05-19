@@ -9,10 +9,10 @@
 
 ## 常用屬性
 
-| 屬性名稱          | 類型       | 描述                              | 範例                                  |
-|-------------------|------------|-----------------------------------|---------------------------------------|
-| `length`          | `number`   | 歷史紀錄中的條目數量              | `console.log(history.length)` // 5    |
-| `state`           | `any`      | 當前歷史條目的狀態物件（由 `pushState` 或 `replaceState` 設置） | `console.log(history.state)` // { page: 1 } |
+| 屬性名稱 | 類型 | 描述 | 範例 |
+|------------|------------|------------|------------|
+| `length` | `number` | 歷史紀錄中的條目數量 | `console.log(history.length)` `// 5`    |
+| `state` | `any` | 當前歷史條目的狀態物件（由 `pushState` 或 `replaceState` 設置） | `console.log(history.state)` `//{ page: 1 }` |
 | `scrollRestoration` | `string` | 控制頁面載入時的滾動行為（`auto` 或 `manual`） | `history.scrollRestoration = 'manual'` |
 
 ## 常用方法
@@ -21,7 +21,7 @@
 |-------------------|-----------------------------------|---------------------------------------|
 | `back()`          | 返回歷史紀錄中的上一頁            | `history.back()`                      |
 | `forward()`       | 前進到歷史紀錄中的下一頁          | `history.forward()`                   |
-| `go(delta)`       | 在歷史紀錄中移動指定步數（正數前進，負數後退） | `history.go(-2)` // 回退兩頁 |
+| `go(delta)`       | 在歷史紀錄中移動指定步數（正數前進，負數後退） | `history.go(-2)` //回退兩頁 |
 | `pushState(state, title, url)` | 新增歷史條目並更改 URL，不重新載入頁面 | `history.pushState({ page: 1 }, '', '/page1')` |
 | `replaceState(state, title, url)` | 修改當前歷史條目，不新增紀錄   | `history.replaceState({ page: 2 }, '', '/page2')` |
 
