@@ -28,3 +28,15 @@
   filter: var(--vp-home-hero-image-filter);
   transform: translate(-50%, -50%);
 }
+
+.VPDoc img {
+  cursor: zoom-in;
+  transition: transform 0.3s ease;
+}
+
+.VPDoc img.zoomed {
+  cursor: zoom-out;
+  transform: scale(2);
+  z-index: 1000;
+  position: relative;
+}
