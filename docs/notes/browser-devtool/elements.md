@@ -148,3 +148,80 @@ Styles 分頁中的規則列表按照 CSS 優先度從高到低排序
 ### Layout 分頁
 用來查看、修改 Grid 和 Flex 的地方
 
+## DOM 結構
+### 取得 DOM 元素的 3 種方法
+
+![取得 DOM 元素](https://hackmd.io/_uploads/HJy0y9hylg.png)
+- == $0
+  - 當前選中的元素會被標記為 `== $0`
+  - 此元素可在 Console 面板中通過變數 `$0` 直接存取，這樣可以在不使用 `document.querySelector()` 的情況下直接操作該元素
+  - DevTools 會記住你最近選擇的多個元素，`$1` 代表倒數第二個選中的元素，`$2` 代表倒數第三個選中的元素，以此類推直到 `$4`（最多保留 5 個元素的歷史）
+- Copy JS path
+  - 選中元素，右鍵 → `Copy` → `Copy JS path`，在 Console 面板貼上
+- 存成全域變數
+  - 選中元素，右鍵 → `Store as global variable`
+
+### 元素互動導航
+![元素互動導航 (1)](https://hackmd.io/_uploads/rkEPUqnkgg.png)
+- Scroll into view
+  - 這個功能可以將畫面移動到被選取的元素位置
+     - Elements 面板找到目標元素, 右鍵 → `Scroll to view`
+- Open in Elements Panel
+  - 這個功能可以將印出來的元素，切換到 Elements 面板，並且標記該元素在哪
+    -  Console 面板找到選取印出來的元素, 右鍵 → `Open in Elements Panel`
+
+### console.dir
+![console.dir](https://hackmd.io/_uploads/Hksw4ihyxx.png)
+- 印出元素的各個屬性
+
+### 搜尋功能 Control + F (Command + F)
+![搜尋功能](https://hackmd.io/_uploads/Byszaohyel.png)
+
+- 字串搜尋
+  - 直接輸入文字來搜尋 HTML 中包含該文字的元素
+- CSS 選擇器搜尋
+  - 輸入有效的 CSS 選擇器（如 `.classname` 或 `#id`）搜尋
+
+### 編輯 DOM 結構
+![編輯 DOM 結構](https://hackmd.io/_uploads/H1kTXn31gl.png)
+
+#### 移動元素
+- 拖曳元素
+  - 在 Elements 面板中拖曳元素調整層級和順序
+- Control + 上下鍵  (Command + 上下鍵)
+#### 複製與貼上
+- 使用 Control+C (Command+C) 複製選中的元素
+- 使用 Control+V (Command+C) 將複製的元素貼上到目標位置
+
+#### 復原操作
+- 如果想還原操作，可以使用 Control+Z (Command+Z) 來復原上一步操作
+
+### 不同屬性右鍵選單
+![不同屬性右鍵選單](https://hackmd.io/_uploads/rJnpr2nygl.png)
+
+在 Elements 面板中，右鍵選單的選項會根據您點擊的元素類型而有所不同
+
+- 標準屬性 (Attribute)：在一般屬性上按右鍵會顯示編輯、添加、刪除屬性等選項
+- URL 類型屬性：在包含 URL 的屬性上（如 `href`、`src`、`url()` 等）按右鍵時，選單中會提供額外選項：
+  - `Open in new tab` - 直接在新分頁中打開該 URL
+  - `Copy link address` - 複製 URL 地址
+  - `Reveal in Sources pane` - 切換到 Sources 面板
+
+### Hide element
+![Hide element](https://hackmd.io/_uploads/H1oZh2hygx.png)
+
+在開發過程中，如果想要找的元素被其他元素覆蓋，而且選不太到，可以用 `Hide element`
+1. 先選取（Inspect）覆蓋在上層的元素
+2. 使用以下任一方式隱藏該元素：
+   - 在元素上按右鍵 → `Hide element`
+   - 選中元素後直接按鍵盤的 `H` 鍵
+
+###  Expand recursively
+![Expand recursively](https://hackmd.io/_uploads/BJxjla2kgx.png)
+
+如果 DOM 很多層很複雜的時候，要一層一層打開很麻煩，可以使用 `Expand recursively`
+1. 先選取（Inspect）上層的元素
+2. 使用以下任一方式展開：
+   - 右鍵 → `Expand recursively`
+   - 按住 `Alt` 鍵（`Option`鍵）的同時，點擊元素旁的箭頭符號
+   - 按住 `Alt` 鍵（`Option`鍵）的同時，按左、右鍵
