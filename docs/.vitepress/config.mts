@@ -127,6 +127,7 @@ const mainSidebar = [
         collapsed: true,
         items: [
           { text: '瀏覽器 Devtool', link: '/notes/browser-devtool/introduce' },
+          { text: 'WebConf 2024', link: '/notes/webconf-2024/rxjs' },
         ]
       }
     ]
@@ -163,6 +164,16 @@ const browserDevtoolSidebar = [
   }
 ];
 
+// WebConf2024
+const webConf2024Sidebar = [
+  {
+    text: 'WebConf2024',
+    items: [
+      { text: '有限狀態機與 RxJS - 奶綠茶', link: '/notes/webconf-2024/rxjs' },
+    ]
+  }
+]
+
 // https://vitepress.dev/reference/site-config
 export default withMermaid(
   defineConfig(
@@ -182,6 +193,7 @@ export default withMermaid(
         sidebar: {
           '/': mainSidebar, // 其他路徑的 Sidebar
           '/notes/browser-devtool/': browserDevtoolSidebar, // 對應 瀏覽器 Devtool 的專屬 Sidebar
+          '/notes/webconf-2024/': webConf2024Sidebar, // 對應 WebConf2024 Sidebar
         },
         // sidebar: mainSidebar,
         socialLinks: [
