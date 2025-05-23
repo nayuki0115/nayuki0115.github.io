@@ -170,6 +170,7 @@ const webConf2024Sidebar = [
     text: 'WebConf2024',
     items: [
       { text: '有限狀態機與 RxJS - 奶綠茶', link: '/notes/webconf-2024/rxjs' },
+      { text: '個人專案到產品：善用 AI 工具打造可盈利產品 - 王鵬傑 PJ Wang', link: '/notes/webconf-2024/ai-tool' },
     ]
   }
 ]
