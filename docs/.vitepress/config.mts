@@ -172,6 +172,7 @@ const webConf2024Sidebar = [
       { text: '有限狀態機與 RxJS - 奶綠茶', link: '/notes/webconf-2024/rxjs' },
       { text: '個人專案到產品：善用 AI 工具打造可盈利產品 - 王鵬傑 PJ Wang', link: '/notes/webconf-2024/ai-tool' },
       { text: '從技術專才到領導者: 1 到 100 人的管理之路 - Singz Hsieh', link: '/notes/webconf-2024/org-management' },
+      { text: '來一場兼顧程式碼品質以及開發效率的 Code Review - Fin', link: '/notes/webconf-2024/code-review' },
     ]
   }
 ]
