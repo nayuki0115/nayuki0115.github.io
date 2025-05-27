@@ -174,6 +174,7 @@ const webConf2024Sidebar = [
       { text: '從技術專才到領導者: 1 到 100 人的管理之路 - Singz Hsieh', link: '/notes/webconf-2024/org-management' },
       { text: '來一場兼顧程式碼品質以及開發效率的 Code Review - Fin', link: '/notes/webconf-2024/code-review' },
       { text: '產品 AI 整合路徑：分階段為現有產品找到最佳 AI 整合方案 - 林威宇', link: '/notes/webconf-2024/ai-integration-solutions' },
+      { text: 'AI、Data 與 Web，跨領域的資料科學工作者之路 - 維元', link: '/notes/webconf-2024/ai-data-web-career-path' },
     ]
   }
 ]
