@@ -175,6 +175,7 @@ const webConf2024Sidebar = [
       { text: '來一場兼顧程式碼品質以及開發效率的 Code Review - Fin', link: '/notes/webconf-2024/code-review' },
       { text: '產品 AI 整合路徑：分階段為現有產品找到最佳 AI 整合方案 - 林威宇', link: '/notes/webconf-2024/ai-integration-solutions' },
       { text: 'AI、Data 與 Web，跨領域的資料科學工作者之路 - 維元', link: '/notes/webconf-2024/ai-data-web-career-path' },
+      { text: 'AI+商業思維：軟體工程師如何擁抱趨勢，提升職場價值 - 游舒帆', link: '/notes/webconf-2024/ai-business-thinking' },
     ]
   }
 ]
