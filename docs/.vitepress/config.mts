@@ -177,6 +177,7 @@ const webConf2024Sidebar = [
       { text: 'AI、Data 與 Web，跨領域的資料科學工作者之路 - 維元', link: '/notes/webconf-2024/ai-data-web-career-path' },
       { text: 'AI+商業思維：軟體工程師如何擁抱趨勢，提升職場價值 - 游舒帆', link: '/notes/webconf-2024/ai-business-thinking' },
       { text: '談組織內部的產品創業：由技術選型、優劣勢分析、階段性目標再到團隊設計 - 高玉璁 Samuel', link: '/notes/webconf-2024/internal_product_startup_strategy' },
+      { text: '擁抱漸進式體驗 — 設計驅動企業改革動能 - 郭藺瑩 Lydia Kuo', link: '/notes/webconf-2024/progressive-experience-design' },
     ]
   }
 ]
