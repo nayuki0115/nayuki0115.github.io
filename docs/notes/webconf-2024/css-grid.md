@@ -171,7 +171,7 @@ Grid System 特點：
 }
 ```
 - Detail element 
-使用 <detail>
+使用 `<detail>`
 > 範例 code : height-transition2
 ```html=
 <div class="accordion">
@@ -186,7 +186,7 @@ Grid System 特點：
     <div class="detail-content">
       <p>這段展現「不」使用 grid 也能夠實現不確定容器高度時的動畫轉換效果</p>
       <p>使用 HTML Details 和 interpolate-size: allow-keywords; 實現 height auto。</p>
-      </div>
+    </div>
   </details>
   <details class="accordion-item" name="item">
     <summary class="detail-title">Q : 實現自動高度動畫真的不難，對吧</summary>
@@ -262,4 +262,4 @@ html,body{
 .btn:nth-child(3):hover {
 	background-color: color-mix(in srgb, var(--btn-bg), var(--btn-hover-bg) 80%);
 }
-	```
+```
