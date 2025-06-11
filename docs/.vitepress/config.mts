@@ -179,6 +179,7 @@ const webConf2024Sidebar = [
       { text: '談組織內部的產品創業：由技術選型、優劣勢分析、階段性目標再到團隊設計 - 高玉璁 Samuel', link: '/notes/webconf-2024/internal_product_startup_strategy' },
       { text: '擁抱漸進式體驗 — 設計驅動企業改革動能 - 郭藺瑩 Lydia Kuo', link: '/notes/webconf-2024/progressive-experience-design' },
       { text: 'Flex out！ CSS Grid 玩起來！ - 李建杭 Amos', link: '/notes/webconf-2024/css-grid' },
+      { text: '從零到頂尖：無懈可擊的網頁設計 - 設計師勞哥', link: '/notes/webconf-2024/web-design' },
     ]
   }
 ]
