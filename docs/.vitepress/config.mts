@@ -192,6 +192,7 @@ export default withMermaid(
       title: "Annie's Notes",
       description: "Annie's front-end notes and records of various interests",
       lang: 'zh-Hant',
+      base: '/nayuki0115.github.io/',
       lastUpdated: true,
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
