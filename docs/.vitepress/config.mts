@@ -193,6 +193,7 @@ export default withMermaid(
       description: "Annie's front-end notes and records of various interests",
       lang: 'zh-Hant',
       lastUpdated: true,
+      base: '/',
       cleanUrls: false,
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
