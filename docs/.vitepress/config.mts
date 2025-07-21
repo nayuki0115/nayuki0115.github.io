@@ -199,7 +199,7 @@ export default withMermaid(
         // https://vitepress.dev/reference/default-theme-config
         nav: [
           { text: 'Home', link: '/' },
-          { text: 'About', link: '/about' },
+          { text: 'About', link: '/about.html' },
           { text: 'Notes', link: '/notes/js/js-handle-string' }
         ],
         outline: [2, 3],
