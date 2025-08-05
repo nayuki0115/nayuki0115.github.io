@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-// import { withMermaid } from "vitepress-plugin-mermaid"
+import { withMermaid } from "vitepress-plugin-mermaid"
 
 const mainSidebar = [
   {
@@ -186,7 +186,8 @@ const webConf2024Sidebar = [
 ]
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig(
+export default withMermaid(
+  defineConfig(
     {
       title: "Annie's Notes",
       description: "Annie's front-end notes and records of various interests",
@@ -220,4 +221,4 @@ export default defineConfig(
         }
       }
     })
-
+)
