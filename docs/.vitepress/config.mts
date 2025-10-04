@@ -194,7 +194,7 @@ export default withMermaid(
       lang: 'zh-Hant',
       lastUpdated: true,
       base: '/',
-      cleanUrls: false,
+      cleanUrls: true,
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
