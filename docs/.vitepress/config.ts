@@ -194,12 +194,12 @@ export default withMermaid(
       lang: 'zh-Hant',
       lastUpdated: true,
       base: '/',
-      cleanUrls: true,
+      cleanUrls: false,
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
           { text: 'Home', link: '/' },
-          { text: 'About', link: '/about/' },
+          { text: 'About', link: '/about' },
           { text: 'Notes', link: '/notes/js/js-handle-string' }
         ],
         outline: [2, 3],
