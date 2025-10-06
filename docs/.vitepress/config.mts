@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import { withMermaid } from "vitepress-plugin-mermaid"
 
 const mainSidebar = [
   {
@@ -186,39 +185,38 @@ const webConf2024Sidebar = [
 ]
 
 // https://vitepress.dev/reference/site-config
-export default withMermaid(
-  defineConfig(
-    {
-      title: "Annie's Notes",
-      description: "Annie's front-end notes and records of various interests",
-      lang: 'zh-Hant',
-      lastUpdated: true,
-      base: '/',
-      cleanUrls: true,
-      themeConfig: {
-        // https://vitepress.dev/reference/default-theme-config
-        nav: [
-          { text: 'Home', link: '/' },
-          { text: 'About', link: '/about' },
-          { text: 'Notes', link: '/notes/js/js-handle-string' }
-        ],
-        outline: [2, 3],
-        sidebar: {
-          '/': mainSidebar, // 其他路徑的 Sidebar
-          '/notes/browser-devtool/': browserDevtoolSidebar, // 對應 瀏覽器 Devtool 的專屬 Sidebar
-          '/notes/webconf-2024/': webConf2024Sidebar, // 對應 WebConf2024 Sidebar
-        },
-        // sidebar: mainSidebar,
-        socialLinks: [
-          { icon: 'github', link: 'https://github.com/nayuki0115' },
-          { icon: 'linkedin', link: 'https://tw.linkedin.com/in/nayuki0115?trk=people-guest_people_search-card' },
-        ],
-        search: {
-          provider: 'local',
-        },
-        footer: {
-          copyright: 'Copyright © 2024-present <a href="https://github.com/nayuki0115">Annie Wu</a>'
-        }
+export default defineConfig(
+  {
+    title: "Annie's Notes",
+    description: "Annie's front-end notes and records of various interests",
+    lang: 'zh-Hant',
+    lastUpdated: true,
+    base: '/',
+    cleanUrls: true,
+    themeConfig: {
+      // https://vitepress.dev/reference/default-theme-config
+      nav: [
+        { text: 'Home', link: '/' },
+        { text: 'About', link: '/about' },
+        { text: 'Notes', link: '/notes/js/js-handle-string' }
+      ],
+      outline: [2, 3],
+      sidebar: {
+        '/': mainSidebar, // 其他路徑的 Sidebar
+        '/notes/browser-devtool/': browserDevtoolSidebar, // 對應 瀏覽器 Devtool 的專屬 Sidebar
+        '/notes/webconf-2024/': webConf2024Sidebar, // 對應 WebConf2024 Sidebar
+      },
+      // sidebar: mainSidebar,
+      socialLinks: [
+        { icon: 'github', link: 'https://github.com/nayuki0115' },
+        { icon: 'linkedin', link: 'https://tw.linkedin.com/in/nayuki0115?trk=people-guest_people_search-card' },
+      ],
+      search: {
+        provider: 'local',
+      },
+      footer: {
+        copyright: 'Copyright © 2024-present <a href="https://github.com/nayuki0115">Annie Wu</a>'
       }
-    })
-)
+    }
+  })
+
