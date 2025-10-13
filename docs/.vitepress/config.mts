@@ -180,6 +180,7 @@ const webConf2024Sidebar = [
       { text: 'Flex out！ CSS Grid 玩起來！ - 李建杭 Amos', link: '/notes/webconf-2024/css-grid' },
       { text: '從零到頂尖：無懈可擊的網頁設計 - 設計師勞哥', link: '/notes/webconf-2024/web-design' },
       { text: '當 Vue 與 View 分手之後⋯ - Kuro Hsu', link: '/notes/webconf-2024/vue-view' },
+      { text: 'ESLint One for All Made Easy - Anthony Fu', link: '/notes/webconf-2024/eslient-setting' },
     ]
   }
 ]
