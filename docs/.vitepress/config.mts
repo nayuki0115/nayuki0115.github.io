@@ -181,6 +181,7 @@ const webConf2024Sidebar = [
       { text: '從零到頂尖：無懈可擊的網頁設計 - 設計師勞哥', link: '/notes/webconf-2024/web-design' },
       { text: '當 Vue 與 View 分手之後⋯ - Kuro Hsu', link: '/notes/webconf-2024/vue-view' },
       { text: 'ESLint One for All Made Easy - Anthony Fu', link: '/notes/webconf-2024/eslient-setting' },
+      { text: 'AI 時代工程師成長之路 - 李智樺 Ruddy', link: '/notes/webconf-2024/ai-era-engineer-road' },
     ]
   }
 ]
