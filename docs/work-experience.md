@@ -38,8 +38,8 @@ Taipei, Taiwan
  - 確保各項專案依期穩定交付
 
 #### 專案代表 
- - 桃園市儀表板（RD Leader）：導入 Nuxt 3，建置城市數據視覺化平台
- - [桃園資料開放平台](https://opendata.tycg.gov.tw/)（RD Leader）：推動地方政府資料治理與數位轉型
+- 桃園市儀表板（RD Leader）：導入 Nuxt 3，建置城市數據視覺化平台
+- [桃園資料開放平台](https://opendata.tycg.gov.tw/)（RD Leader）：推動地方政府資料治理與數位轉型
 
 #### 技術使用 
 `JavaScript`、`TypeScript`、`Vue.js`、`Nuxt.js`、`HTML`、`CSS`、`Git`、`無障礙設計（a11y）`、`團隊管理`
@@ -47,9 +47,9 @@ Taipei, Taiwan
 
 ### 高級前端工程師  2019-2022
 #### 工作職責 
-完成多項專案開發任務，擔任 RD Leader 進行任務拆解與實作
-參與公司後台模組化與前端架構優化
-技術轉型：主導從 jQuery 過渡至 Vue 2 開發流程
+- 完成多項專案開發任務，擔任 RD Leader 進行任務拆解與實作
+- 參與公司後台模組化與前端架構優化
+- 技術轉型：主導從 jQuery 過渡至 Vue 2 開發流程
 
 #### 專案代表 
 - 灃食飲食常識庫：建立飲食教育平台，推廣健康飲食觀念
