@@ -8,10 +8,10 @@
 ## 關於我
 
 <section class="intro">
-  <div>吳冠儀，前端工程師</div>
+  <div>吳冠儀，資深前端工程師</div>
   <div><a href= "mailto: annie25506@gmail.com"> annie25506@gmail.com </a></div>
   <div>Taipei, Taiwan</div>
-  <div>2017 年碩士班畢業後，成為前端工程師已有 7 年</div>
+  <div>2017 年碩士班畢業後，成為前端工程師已有 8 年</div>
   <div>對前端技術與網頁設計，充滿熱忱</div>  
   <div>想挑戰有穩定產品的職務</div>  
   <div>有管理前端小組的經驗</div> 
@@ -93,7 +93,7 @@ const members = [
   {
     avatar: 'https://github.com/nayuki0115.png',
     name: 'Annie Wu',
-    title: 'Frontend Engineer',
+    title: 'Sr. Frontend Engineer',
     links: [
       { icon: 'github', link: 'https://github.com/nayuki0115' },
       { icon: 'linkedin', link: 'https://tw.linkedin.com/in/nayuki0115?trk=people-guest_people_search-card' },
