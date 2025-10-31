@@ -78,6 +78,7 @@ const mainSidebar = [
         collapsed: true,
         items: [
           { text: 'input type 和 inputmode 與 enterkeyhint', link: '/notes/html/input-keyboard-mode' },
+          { text: 'HTML 語意標籤 vs 樣式標籤 比較', link: '/notes/html/semantic-and-style-tag-comparison' },
         ]
       },
       {
