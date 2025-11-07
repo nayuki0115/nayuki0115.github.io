@@ -11,13 +11,15 @@
   <div>吳冠儀，資深前端工程師</div>
   <div><a href= "mailto: annie25506@gmail.com"> annie25506@gmail.com </a></div>
   <div>Taipei, Taiwan</div>
-  <div>2017 年碩士班畢業後，成為前端工程師已有 8 年</div>
-  <div>對前端技術與網頁設計，充滿熱忱</div>  
-  <div>想挑戰有穩定產品的職務</div>  
-  <div>有管理前端小組的經驗</div> 
-  <div>接受遠端工作、混合辦公</div> 
-  <div>熟悉Vue並有完整的5年專案開發及架構設計經驗、以及React的小型專案實作經驗</div> 
-  <div>暫不考慮博奕相關產業</div> 
+  <ul>
+    <li>2017 年碩士畢業，前端經驗 8 年</li>
+    <li>精通 Vue / Nuxt（Vue2 / Vue3、Nuxt2 / Nuxt3 + TypeScript）</li>  
+    <li>熟悉大型專案架構與模組化設計（實戰經驗 5 年以上）</li>  
+    <li>有 React 小型專案開發經驗</li> 
+    <li>任前端小組 Leader，擅長跨部門協作與溝通</li> 
+    <li>希望加入穩定產品團隊（偏好 2C）</li> 
+    <li>不考慮博弈與排班性質產業</li> 
+  </ul>
 </section>
 
 ## 學歷
@@ -31,9 +33,36 @@
 </div>
 </section>
 
-## 技能
+## Tech Stack 技能
+### Frontend Frameworks 前端框架
+<section>
+<p>
+  <span class="tags"><img src="https://www.vectorlogo.zone/logos/vuejs/vuejs-ar21.svg" alt="vue" /></span>
+  <span class="tags"><img src="https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-ar21.svg" alt="nuxt" /></span>
+  <span class="tags"><img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="react" /></span>
+</p>
+</section>
 
-### Frontend Tech Stack  前端技能 
+### Languages 語言
+<section>
+<p>
+  <span class="tags"><img src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg" alt="js" /></span>
+  <span class="tags"><img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg" alt="ts" /></span>
+  <span class="tags"><img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="html" /></span>
+  <span class="tags"><img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg" alt="css" /></span>
+</p>
+</section>
+
+### Tools & Others 工具或其他
+<section>
+<p>
+  <span class="tags"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="git" /></span>
+  <span class="tags"><img src="https://www.vectorlogo.zone/logos/eslint/eslint-ar21.svg" alt="eslint" /></span>
+  <!-- <img src="https://www.vectorlogo.zone/logos/prettierio/prettierio-ar21.svg" alt="prettier" /> -->
+</p>
+</section>
+
+<!-- ### Frontend Tech Stack  前端技能 
 <section>
   <p>
     <span class="tags">
@@ -71,15 +100,8 @@
       <a href="https://git-scm.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="git"></a>
     </span>
   </p>
-</section>
-<!-- 
-
-<section class="">
-
-</section>
-<section class="">
-
 </section> -->
+
 
 
 <script setup>
