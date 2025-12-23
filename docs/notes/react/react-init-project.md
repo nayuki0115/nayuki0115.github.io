@@ -18,7 +18,7 @@ cd <project-name>
 pnpm install
 pnpm dev
 ```
-- `pnpm dev`：啟動開發伺服器（預設 http://localhost:5173）
+- `pnpm dev`：啟動開發伺服器（預設 `http://localhost:5173`）
 
 
 ## 專案結構
