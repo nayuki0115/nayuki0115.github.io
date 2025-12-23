@@ -13,6 +13,13 @@ pnpm create vite <project-name> --template react-ts
 - `<project-name>`： 替換成你想要的專案名稱
 - `--template react-ts`： 告訴 Vite 我們要使用 React 搭配 TypeScript 
 
+```
+cd <project-name>
+pnpm install
+pnpm dev
+```
+- `pnpm dev`：啟動開發伺服器（預設 http://localhost:5173）
+
 
 ## 專案結構
 ```
@@ -43,20 +50,208 @@ project-name/
 └── vite.config.ts       # Vite 的設定檔 (使用 TypeScript 編寫)
 ```
 
-- `index.html`
-  - 應用程式的「殼」，載入程式碼
-  - 通會內容中會有` <div id="app"></div>`，React 應用程式最終會被掛載到這個 div 裡面
-- `src/` 資料夾
-  - `main.tsx` 為進入點
-    -  引入 React 和 ReactDOM
-    -  引入你的元件 (預設是 App 元件)
-    -  引入全域 CSS (index.css)
-    -  使用 `ReactDOM.createRoot().render()` 將 App 元件渲染到 `index.html` 中的 `#root` `div` 裡，是 React 應用程式啟動的地方
-  - `App.tsx`
-    -  預設的根元件
-    -  所有其他頁面或元件的容器
-  - `assets/`
-    - 放圖片、字型等資源
-  - `public/` 
-    - 這邊的檔案不會被 Vite 或建置過程處理（會原封不動被複製到最終建置輸出資料夾的根目錄）
-    - 可以放不需要建置處理的檔案，例如 `favicon.ico`、 `robots.txt`
+## 核心檔案說明
+
+### `index.html`
+- 應用程式的「殼」，載入程式碼
+- React 應用程式最終會被掛載到這個 div 裡面
+```html=
+<div id="root"></div>
+```
+
+### `src/main.tsx`
+- `main.tsx` 為進入點
+-  引入 React 和 ReactDOM
+-  引入你的元件 (預設是 App 元件)
+-  引入全域 CSS (index.css)
+-  使用 `ReactDOM.createRoot().render()` 將 App 元件渲染到 `index.html` 中的 `#root` `div` 裡，是 React 應用程式啟動的地方
+-  使用 createRoot
+-  Provider（Router、Store）都放在這一層
+
+```jsx=
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
+import "./index.css";
+
+createRoot(document.getElementById("root")!).render(
+  <StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </StrictMode>
+);
+
+```
+
+### `src/App.tsx`
+-  預設的根元件
+-  所有其他頁面或元件的容器
+-  通常只負責：
+    -  Layout（Header / Footer）
+    -  Router
+
+```jsx=
+const App = () => {
+  return <div>Hello React</div>;
+};
+
+export default App;
+```
+
+### `assets/`
+- 放圖片、字型等資源
+### `public/` 
+- 這邊的檔案不會被 Vite 或建置過程處理（會原封不動被複製到最終建置輸出資料夾的根目錄）
+- 可以放不需要建置處理的檔案，例如 `favicon.ico`、 `robots.txt`
+
+## 設定 React Router
+### 安裝
+```
+pnpm add react-router-dom
+```
+### Router 集中管理
+此項目可看專案大小評估是否要分成`index.tsx` 和 `router.tsx`，
+或是直接一支檔案管理就好（單一來源）
+
+#### 單一來源
+```
+src/router/
+└── index.tsx
+```
+
+> router/index.tsx
+
+```
+import type { RouteObject } from "react-router-dom";
+import { Home } from "@/pages/Home";
+import { Result } from "@/pages/Result";
+
+export const routes: RouteObject[] = [
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/result",
+    element: <Result />,
+  }
+];
+
+```
+
+#### 不同功能管理 router
+
+```
+src/router/
+├── routes.tsx
+└── index.tsx
+```
+
+> router/routes.tsx
+```
+import type { RouteObject } from "react-router-dom";
+import { Home } from "@/pages/Home";
+import { About } from "@/pages/About";
+
+export const routes: RouteObject[] = [
+  { path: "/", element: <Home /> },
+  { path: "/about", element: <About /> },
+];
+
+```
+
+> router/index.tsx
+```
+import { Navigate, useRoutes } from "react-router-dom";
+import { routes } from "./routes";
+
+export const AppRouter = () => {
+  return useRoutes([
+    ...routes,
+    { path: "*", element: <Navigate to="/" replace /> },
+  ]);
+};
+
+```
+
+## 設定 @/ 絕對路徑
+
+若設定後仍有錯誤，請在 VSCode 執行 `TypeScript: Restart TS Server`
+
+> vite.config.ts
+```
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import path from "path";
+
+export default defineConfig({
+  plugins: [react()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "src"),
+    },
+  },
+});
+```
+
+> tsconfig.json（或實際生效的 tsconfig）
+
+```
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "jsx": "react-jsx"
+  }
+}
+```
+
+## Pages 範例
+
+### Named Export
+> src/pages/Home.tsx
+
+```
+export const Home = () => {
+  return <div>Home Page</div>;
+};
+```
+
+### Default Export
+```
+const Home = () => {
+  return <div>Home Page</div>;
+};
+export default Home;
+```
+
+## 套件引用
+以 Tailwind CSS 為例
+
+### 安裝
+```
+pnpm add -D tailwindcss postcss autoprefixer
+pnpm tailwindcss init -p
+```
+
+### 設定
+> tailwind.config.js
+
+```
+export default {
+  content: ["./index.html", "./src/**/*.{ts,tsx}"],
+  theme: { extend: {} },
+  plugins: [],
+};
+```
+> index.css
+
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
