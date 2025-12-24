@@ -234,24 +234,24 @@ export default Home;
 
 ### 安裝
 ```
-pnpm add -D tailwindcss postcss autoprefixer
-pnpm tailwindcss init -p
+pnpm install tailwindcss @tailwindcss/vite
 ```
 
 ### 設定
-> tailwind.config.js
+> vite.config.ts
 
 ```
-export default {
-  content: ["./index.html", "./src/**/*.{ts,tsx}"],
-  theme: { extend: {} },
-  plugins: [],
-};
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
 ```
 > index.css
 
 ```
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 ```
