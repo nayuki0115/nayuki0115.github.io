@@ -21,6 +21,7 @@ const mainSidebar = [
           { text: 'JS 事件屬性清單', link: '/notes/js/js-event-attribute' },
           { text: 'Window 物件的常用屬性與方法', link: '/notes/js/js-window-attr' },
           { text: 'History 物件的常用屬性與方法', link: '/notes/js/js-history-attr' },
+          { text: 'JavaScript 主流 Coding Style 規範比較', link: '/notes/js/js-style-guide' },
           { text: 'JS 比較值的三種方式', link: '/notes/js/js-compare-value' },
           { text: 'JS preventDefault 和 stopPropagation 的差異', link: '/notes/js/js-stop-event.md' },
           { text: 'JS 日期處理與格式化', link: '/notes/js/js-date-format' },
