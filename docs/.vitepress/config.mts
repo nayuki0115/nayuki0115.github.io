@@ -124,6 +124,13 @@ const mainSidebar = [
         ]
       },
       {
+        text: 'AI',
+        collapsed: true,
+        items: [
+          { text: ' ChatGPT 提示詞 (prompts)', link: '/notes/ai/chatgpt-prompts' }
+        ]
+      },
+      {
         text: '主題系列',
         collapsed: true,
         items: [
