@@ -1,12 +1,35 @@
 import DefaultTheme from 'vitepress/theme'
+import { inBrowser, useRoute } from 'vitepress'
+import { nextTick, onMounted, watch } from 'vue'
 import './custom.css'
+
+async function renderMermaidDiagrams() {
+  await nextTick()
+
+  const diagrams = document.querySelectorAll<HTMLElement>('.mermaid:not([data-processed])')
+  if (!diagrams.length) return
+
+  const { default: mermaid } = await import('mermaid')
+
+  mermaid.initialize({
+    startOnLoad: false,
+    theme: document.documentElement.classList.contains('dark') ? 'dark' : 'default',
+  })
+
+  await mermaid.run({ nodes: diagrams })
+}
 
 export default {
   ...DefaultTheme,
 
-  // 先僅保留你的圖片點擊放大；不要載入 mermaid
   setup() {
-    if (typeof window === 'undefined') return
+    if (!inBrowser) return
+
+    const route = useRoute()
+
+    onMounted(renderMermaidDiagrams)
+    watch(() => route.path, renderMermaidDiagrams, { flush: 'post' })
+
     document.addEventListener('click', (e) => {
       const target = e.target as HTMLElement | null
       const zoomedImg = document.querySelector<HTMLImageElement>('.VPDoc img.zoomed')

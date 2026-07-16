@@ -204,6 +204,21 @@ export default defineConfig(
     lastUpdated: true,
     base: '/',
     cleanUrls: true,
+    markdown: {
+      config(md) {
+        const defaultFence = md.renderer.rules.fence!
+
+        md.renderer.rules.fence = (tokens, index, options, env, self) => {
+          const token = tokens[index]
+
+          if (token.info.trim() === 'mermaid') {
+            return `<pre class="mermaid">${md.utils.escapeHtml(token.content)}</pre>`
+          }
+
+          return defaultFence(tokens, index, options, env, self)
+        }
+      },
+    },
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       nav: [

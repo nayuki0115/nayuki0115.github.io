@@ -40,3 +40,15 @@
   z-index: 1000;
   position: relative;
 }
+
+.VPDoc .mermaid {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  padding: 16px 0;
+}
+
+.VPDoc .mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
